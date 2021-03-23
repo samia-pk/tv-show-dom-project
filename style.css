@@ -22,9 +22,10 @@ h1 {
 
 #displayInput {
   display: flex;
-  color: white;
+  color: grey;
   font-size: medium;
   margin-left: 30%;
+  
   }
 
 

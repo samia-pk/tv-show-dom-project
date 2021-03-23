@@ -15,10 +15,8 @@ function setup() {
   }
 })
 
-  // console.log(allShows);
   let allEpisodes = getAllEpisodes();
 
-  //makePageForEpisodes(allEpisodes);
 
   let myRootEl = document.getElementById("root");
   let MyEpisodesDiv = document.createElement("div");
@@ -78,7 +76,6 @@ function setup() {
         return episodeList;
     });
     let myParagraph = document.getElementById("displayParagraph");
-   // myParagraph.innerHTML = `displaying ${filteredEpisodes.length}/${allEpisodes.length}`;
     myParagraph.textContent = `displaying ${filteredEpisodes.length}/${allEpisodes.length} episodes`;
 
     allEpisodeList(filteredEpisodes);
@@ -255,7 +252,6 @@ function setup() {
   };
    
 }
-
 
 function makePageForEpisodes(episodeList) {
   const rootElem = document.getElementById("root");
