@@ -1,4 +1,9 @@
 
+html,
+body {
+  width: 100%;
+  background-color: #116e5f;
+}
 
 h1 {
   text-align: center;
@@ -17,13 +22,9 @@ h1 {
 
 #displayInput {
   display: flex;
-  height: 35px;
-  width: 300px;
-  background-color: rgb(252, 223, 162);
-  border-radius: 5px;
-  font-size: 1rem;
-  outline-color: rgb(32, 32, 32);
-  box-shadow: 2px 2px rgb(146, 144, 146);
+  color: white;
+  font-size: medium;
+  margin-left: 30%;
   }
 
 
