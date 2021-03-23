@@ -8,15 +8,34 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
-   <body>
-    <input id="input" type ="text">
+
+  <body>
+          <h1>Code Your Future TV Show Project</h1>
+    <div id="displayInput">
+      <input id="input" type="text" placeholder="search episodes" />
+      <p id="displayParagraph"></p>
+      <input id="showInput" type="text" placeholder="search episodes">
+      <p id="showParagraph"></p>
+
+
+    </div>
     <div id="root">
     <ul id = "matchedList">
     </ul>
     </div>
+
+  
+
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-    <script src="episodes.js"></script> 
+    <script src="episodes.js"></script>
+    <script src="shows.js"></script>
+
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
+
+    <footer class="footer">
+      <a href = "https://www.tvmaze.com/episodes/4952/game-of-thrones-1x01-winter-is-coming">This content is from https://www.tvmaze.com/</a>
+    </footer>
   </body>
-  
+</html>
+
