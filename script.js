@@ -170,7 +170,6 @@ function setup() {
   button.textContent = "Return";
   displayInput.appendChild(button);
   button.addEventListener("click", function () {
-    //showList(allShows);
     location.reload();
   });
 
